@@ -40,11 +40,7 @@
 		<connection>scm:git:git@github.com:alexgleon/devops.git</connection>
 		<developerConnection>scm:git:git@github.com:alexgleon/devops.git</developerConnection>
 		<url>git@github.com:alexgleon/devops.git</url>
-<<<<<<< HEAD
 		<tag>HEAD</tag>
-=======
-		<tag>v1.2.0</tag>
->>>>>>> title_issue
 	</scm>	
 
 	<dependencies>
@@ -55,6 +51,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
 		</dependency>
 
 		<dependency>
